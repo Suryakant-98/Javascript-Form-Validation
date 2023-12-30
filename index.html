@@ -10,11 +10,12 @@
 
 </head>
 <body>
+    <header>JS From Validation</header>
     <div class="container">
         <form action="">
             <i class="fas fa-paper-plane"></i>
             <div class="input-group">
-                <label for="contact-name">First Name</label>
+                <label for="contact-name">First Name:</label>
                 <input type="text" placeholder="Enter Your Name" id="contact-name" onkeyup="validateName()">
                 <span id="name-error"></span>
             </div>
@@ -24,12 +25,12 @@
                 <span id="phone-error"></span>
             </div>
             <div class="input-group">
-                <label for="contact-email">Email</label>
+                <label for="contact-email">Email:</label>
                 <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
                 <span id="email-error"></span>
             </div>
             <div class="input-group">
-                <label for="contact-meaage">Your Message</label>
+                <label for="contact-meaage">Your Message:   </label>
                 <textarea rows="5" style="border:0.5px solid #999" placeholder="Enter Your Message" id="contact-meaage" onkeyup="validateMessage()"></textarea>
                 <span id="message-error"></span>
             </div>

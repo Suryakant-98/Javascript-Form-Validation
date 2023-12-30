@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    background: #141a34;
 }
 .container{
     width: 100%;
